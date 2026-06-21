@@ -9,18 +9,6 @@ Este proyecto consiste en un sistema básico de gestión de restaurante desarrol
 
 El objetivo es demostrar la organización de un proyecto en módulos, la separación de responsabilidades entre clases y el uso de importaciones entre archivos para construir una aplicación estructurada y fácil de mantener.
 
-## Estructura del proyecto
-
-text
-restaurante_app/
-├── modelos/
-│   ├── producto.py
-│   └── cliente.py
-├── servicios/
-│   └── restaurante.py
-└── main.py
-
-
 ## Descripción de los archivos
 
 - *modelos/producto.py:* contiene la clase Producto, que representa los productos disponibles en el restaurante.
