@@ -1,7 +1,7 @@
 # Sistema de Gestión de Restaurante
 
 ## Estudiante
-*Bonner Javier Garcia Guanga*
+*Bonner Javier García Guanga*
 
 ## Descripción del sistema
 
