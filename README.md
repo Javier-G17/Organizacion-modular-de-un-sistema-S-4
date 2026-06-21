@@ -1,0 +1,31 @@
+# Sistemas de Gestión del Restaurante 
+
+## Autor 
+Bonner Javier García Guanga
+
+## Descripción del sistema
+Este proyecto es un sistema básico de gestión de un restaurante desarrollado en Python utilizando Programación Orientada a Objetos (POO). EL sistema permite registrar productos disponibles en el restaurante, registrar clientes y administrar esta información mediante un clase principal llamada *Restaurante*.
+
+El Objetivo es demostrar la organización de un proyecto en módulos, la separación de responsablidadesentre clases y el uso de importaciones entre archivos para construir una aplicación estructurada y fácil de matener.
+
+## Estructura del proyecto
+
+'''text
+restaurante_app/
+|---modelos/
+|   |---producto.py
+|   |---cliente.py
+|---servicios/
+|   |---restaurante.py
+|---main.py
+
+##  Descripción de los archivos
+
+- **modelos/producto.py:** contiene la clase 'Producto', que representa los productos disponibles en el restaurante.
+- **modelos/cliente.py:** contiene la clase 'Cliente', que repesenta a los clientes registrados.
+- **servicios/restaurante:** contiene la clase 'Restaurante', encargada de gestionar los productos y clientes.
+- **main.py:** archivo principal donde se crean los objetos y se ejecutan las funcionalidades del sistema.
+
+## Reflexión
+
+La modularidad del software es importante porque permite organizar el código en diferentes archivos según su función, facilitando su comprensión y mantenimiento. Además, la separación de responsabilidades ayuda a que cada clase tenga una tarea específica, haciendo que el programa sea más ordenado, reutilizable y fácil de ampliar en el futuro. Aplicar estos principios mejora la calidad del desarrollo y permite trabajar de manera más eficiente en proyectos de cualquier tamaño.
